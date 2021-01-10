@@ -131,6 +131,7 @@ body
 .has-separator
 {
   font-size: 1.3rem;
+  padding: 5px;
   color: #999999;
   text-transform: uppercase;
   position: relative;
@@ -184,6 +185,9 @@ body
 /*password reset styling*/
 .password-reset
 {
+  margin-left:170px;
+  padding-bottom: 10px;
+  padding-top: 10px;
   font-size: 1.2rem;
   color: #003569;
 }
@@ -259,7 +263,7 @@ footer .container
 {
   display: flex;
   justify-content: space-between;
-  font-weight: bold;
+  font-weight: normal;
   text-transform: uppercase;
   font-size: 1.3rem;
   flex-wrap: wrap;
@@ -280,7 +284,7 @@ footer .container
 
 .footer-nav ul li a
 {
-  color: #003569;
+  color: #999999;
 }
 
 .copyright-notice
